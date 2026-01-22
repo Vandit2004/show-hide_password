@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <input type="text" placeholder="enter the name" id="text"/><br>
-        <!-- <p>para</p> <br> -->
-        <input type="email" placeholder="enter the email" id="email"/><br>
-        <!-- <p>para</p><br> -->
-        <input type="password" placeholder="enter the password" id="pass"/><br>
-        <p></p><br>
-        <button>Submit</button>
+    <div class="container">
+        <div class="box">
+            <input type="password" id="pass" style="width: 250px; height: 60px; border-radius:10px;"/><br>
+            <input type="button" value="show" style="width: 100px; height: 40px; border: none; border-radius: 15px;margin-right: 20px;background-color: black;color: white;" id="sh"/>
+            <input type="button" value="hide" id="hi" style="width: 100px; height: 40px; border: none; border-radius: 15px;background-color: black;color: white;"/>
+            <p id="para"></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
