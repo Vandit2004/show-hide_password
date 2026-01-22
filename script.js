@@ -8,5 +8,5 @@ show.addEventListener("click",function(){
 })
 hide.addEventListener("click",function(){
     alert("hide the password")
-    para.innerHTML =""
+    para.innerHTML =" "
 })
