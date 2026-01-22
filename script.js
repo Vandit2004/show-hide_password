@@ -1,14 +1,12 @@
-let text = document.querySelector("#text")
-let para =document.querySelector("p")
-let email = document.querySelector("#email")
 let pass = document.querySelector("#pass")
-let btn = document.querySelector("button")
-btn.addEventListener("click",function(){
-    if(text.value=="" || email.value=="" || pass.value==""){
-        para.innerHTML = "Error ! Above any field is empty"
-        para.style.color = "red"
-    }
-    else{
-        para.innerHTML = ""
-    }
+let show = document.querySelector("#sh")
+let hide = document.querySelector("#hi")
+let para = document.querySelector("#para")
+show.addEventListener("click",function(){
+    para.innerHTML = pass.value
+    alert("show the password")
+})
+hide.addEventListener("click",function(){
+    alert("hide the password")
+    para.innerHTML =""
 })
